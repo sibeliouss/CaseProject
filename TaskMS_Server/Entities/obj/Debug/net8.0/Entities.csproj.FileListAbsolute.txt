@@ -1,0 +1,16 @@
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/bin/Debug/net8.0/Entities.dll
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/bin/Debug/net8.0/Entities.pdb
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/bin/Debug/net8.0/Core.dll
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/bin/Debug/net8.0/Core.pdb
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/Entities.sourcelink.json
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/Entities.csproj.Up2Date
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/Entities.dll
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/Entities.pdb
+/Users/sozey/Projects/CaseProject/TaskMS_Server/Entities/obj/Debug/net8.0/ref/Entities.dll
