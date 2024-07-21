@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "1pXwv6+o6wJ2Nz38hMcvgv97rOZw67ImoXC2CorsaEg68Neq5T5ukus3eVmF8ZKoUvE81ldUbVqFZF7F6sXf3w==",
+  "success": true,
+  "projectFilePath": "/Users/sozey/Projects/CaseProject/TaskMS_Server/Business/Business.csproj",
+  "expectedPackageFiles": [
+    "/Users/sozey/.nuget/packages/fluentvalidation/11.9.2/fluentvalidation.11.9.2.nupkg.sha512",
+    "/Users/sozey/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.6/microsoft.aspnetcore.authentication.jwtbearer.8.0.6.nupkg.sha512",
+    "/Users/sozey/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/sozey/.nuget/packages/microsoft.identitymodel.abstractions/7.1.2/microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+    "/Users/sozey/.nuget/packages/microsoft.identitymodel.jsonwebtokens/7.1.2/microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "/Users/sozey/.nuget/packages/microsoft.identitymodel.logging/7.1.2/microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+    "/Users/sozey/.nuget/packages/microsoft.identitymodel.protocols/7.1.2/microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "/Users/sozey/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/7.1.2/microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "/Users/sozey/.nuget/packages/microsoft.identitymodel.tokens/7.1.2/microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
+    "/Users/sozey/.nuget/packages/system.identitymodel.tokens.jwt/7.1.2/system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
