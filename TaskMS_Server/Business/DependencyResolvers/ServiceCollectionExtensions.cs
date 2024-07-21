@@ -35,7 +35,7 @@ public static class ServiceCollectionExtensions
                 ValidateIssuerSigningKey = true, //güvenlik anahtarı üretmesini sağlayan güvenlik sözcüğü
                 ValidateLifetime = true, // tokenin yaşam süresini kontrol edilmesi
                 ValidIssuer = "Sibel Öztürk",
-                ValidAudience = "ToDo Project",
+                ValidAudience = "Task Project",
                 IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("StrongAndSecretKeyStrongAndSecretKeyStrongAndSecretKeyStrongAndSecretKey"))
             };
         });
