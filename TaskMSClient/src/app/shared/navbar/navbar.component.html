@@ -1,0 +1,11 @@
+<div class="card">
+    <p-menubar [model]="items" class="custom-menubar">
+        <ng-template pTemplate="end">
+            <p-button icon="pi pi-fw pi-power-off" [label]="auth.token?.name" (onClick)="logout()" [rounded]="true" [text]="true" severity="danger"></p-button>
+        </ng-template>
+    </p-menubar>
+</div>
+<p-toast position="bottom-right" [life]="2000"></p-toast>
+
+<router-outlet></router-outlet>
+

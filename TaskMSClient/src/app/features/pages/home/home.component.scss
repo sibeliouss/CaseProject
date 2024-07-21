@@ -1,0 +1,26 @@
+.card{
+   display: flex;
+    margin-top: 70px;   
+    justify-content: center; 
+
+   //max-width: 200px; 
+   
+ }
+ .table-container {
+    margin: 0 2rem;
+    padding: 1rem; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  //background-color: #731c1c; 
+  border-radius: 8px;
+  }
+
+.filter-container{
+   display: flex;
+   justify-content: end;
+   margin-right: 40px; 
+   margin-bottom: 20px; 
+  // max-width: 200px; 
+  text-align: center;
+ 
+  
+}

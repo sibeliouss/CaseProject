@@ -48,7 +48,7 @@ public class TaskService : ITaskService
             {
                 var fileFormat = file.FileName.Substring(file.FileName.LastIndexOf('.'));
                 var fileName = Guid.NewGuid().ToString() + fileFormat;
-                using (var stream = System.IO.File.Create("/Users/sozey/Projects/toDoProject/TaskMSClient/public/img/" + fileName))
+                using (var stream = System.IO.File.Create("/Users/sozey/Projects/CaseProject/TaskMSClient/public/img/" + fileName))
                 {
                     file.CopyTo(stream);
                 }
@@ -128,7 +128,7 @@ public class TaskService : ITaskService
         var taskFiles = await _context.TaskFiles.Where(tf => tf.TaskId == taskId).ToListAsync();
         foreach (var taskFile in taskFiles)
         {
-            var filePath = Path.Combine("/Users/sozey/Projects/toDoProject/TaskMSClient/public/img", taskFile.FileUrl);
+            var filePath = Path.Combine("/Users/sozey/Projects/CaseProject/TaskMSClient/public/img", taskFile.FileUrl);
             if (System.IO.File.Exists(filePath))
             {
                 System.IO.File.Delete(filePath);

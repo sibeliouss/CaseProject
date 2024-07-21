@@ -1,0 +1,21 @@
+::ng-deep .p-toast {
+    width: 250px !important; /* Genişlik */
+
+  }
+
+ 
+
+.card {
+    background: linear-gradient(to bottom, #f14d06ad, #611b04a3);
+    padding: 15px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-left: 30px;
+    margin-right: 30px;
+   
+    .custom-menubar {
+       opacity: .7;
+       color: black;
+         
+      }
+  }

@@ -1,0 +1,12 @@
+<small *ngIf="hasError('required')">
+    * Bu alan zorunludur.
+  </small>
+  <small *ngIf="hasError('email')">
+    * Geçerli bir kullanıcı adı ya da email giriniz.
+  </small>
+  <small *ngIf="hasError('minlength')">
+    * En az {{ getError("minlength").requiredLength }} karakter
+    uzunluğunda olmalı.
+  </small>
+
+

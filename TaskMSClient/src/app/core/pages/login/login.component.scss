@@ -1,0 +1,91 @@
+
+.login{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-left: 24px;
+    .content{
+      display: grid;
+      .form{
+        position: relative;
+        height: 368px;
+        .loginform{
+          position: absolute;
+         // bottom: 1rem;
+          width: 100%;
+          height: 350px;
+          //background-color: #fa2e005d;
+          background-color: #ffa08b;
+          padding: 2rem 1rem;
+          border-radius: 1rem;
+          text-align: center;
+          box-shadow: 0 0 15px 5px rgba(92, 12, 17, 0.421);
+          
+          .title{
+            font-size: 1.5rem;
+            margin-bottom: 1.25rem;
+            color: rgba(0, 0, 0, 0.756);
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+          }
+          .user{
+            margin-top: 10px;
+          }
+          .check{
+            margin-top: 20px;
+          }
+        }
+       
+         
+      }
+    }
+  }
+    @media screen and (min-width: 576px){
+    .form{
+      width: 350px;
+      
+      justify-self: center;
+    }
+  } 
+  
+  @media screen and (min-width: 1024px){
+    .login{
+      height: 90vh;
+      overflow:hidden;
+      .content{
+        grid-template-columns: repeat(2, max-content);
+        justify-content: center;
+        align-items: center;
+        margin-left: 10rem;
+        .image{
+          display: flex;
+          width: 600px;
+          height: 600px;
+          background-color: #faf1f17d;
+          border:4px solid rgba(250, 128, 114, 0.156);
+          border-radius: 20px;
+          padding-left: 1rem;
+          
+          img{
+            width: 390px;
+            margin-top: 0;
+          }
+        }
+        .loginform{
+          left: -11rem;
+          bottom: -2rem;
+        }
+  
+      }
+  
+    }
+  
+    .konum {
+      width: 100%;
+      display: flex;
+      margin-left: 40px;
+      margin-top: 10px;
+     
+    }
+  
+  } 
+  
+ 

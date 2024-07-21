@@ -25,7 +25,7 @@ public class JwtService
 
         JwtSecurityToken jwtSecurityToken = new(
             issuer: "Sibel Öztürk",
-            audience: "ToDo Project",
+            audience: "Task Project",
             claims: claims,
             notBefore: DateTime.Now, 
             expires: expires,
