@@ -5,5 +5,5 @@ namespace Business.Abstract;
 
 public interface IAuthService
 {
-    Task<IActionResult> LoginAsync(LoginDto request, CancellationToken cancellationToken);
+    Task<string> LoginAsync(LoginDto request);
 }

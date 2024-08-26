@@ -156,3 +156,4 @@
 /Users/sozey/Projects/CaseProject/TaskMS_Server/WebApi/obj/Debug/net8.0/WebApi.pdb
 /Users/sozey/Projects/CaseProject/TaskMS_Server/WebApi/obj/Debug/net8.0/WebApi.genruntimeconfig.cache
 /Users/sozey/Projects/CaseProject/TaskMS_Server/WebApi/obj/Debug/net8.0/ref/WebApi.dll
+/Users/sozey/Projects/CaseProject/TaskMS_Server/WebApi/bin/Debug/net8.0/System.Text.Json.dll

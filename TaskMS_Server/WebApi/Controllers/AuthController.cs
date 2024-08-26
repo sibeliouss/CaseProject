@@ -17,8 +17,9 @@ public class AuthController : ApiController
     }
 
     [HttpPost]
-    public Task<IActionResult> Login(LoginDto request, CancellationToken cancellationToken)
+    public async Task<IActionResult> Login(LoginDto request, CancellationToken cancellationToken)
     {
-        return _authService.LoginAsync(request, cancellationToken);
+        var token = await _authService.LoginAsync(request);
+        return Ok(new { Token = token });
     }
 }
