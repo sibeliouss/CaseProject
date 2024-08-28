@@ -18,8 +18,7 @@ public static class ExtensionsMiddleware
 
     public static void CreateFirstUser(WebApplication app)
     {
-        using var scoped = app.Services.CreateScope();
-        //userManager User ile alakalı CRUD işlemleri dahil bir çok işlemi içinde barındıran identity kütüphanesinden gelen bir service
+        using var scoped = app.Services.CreateScope(); 
         var userManager = scoped.ServiceProvider.GetRequiredService<UserManager<User>>();
         if (!userManager.Users.Any())
         {
